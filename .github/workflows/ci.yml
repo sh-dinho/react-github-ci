@@ -1,6 +1,9 @@
 name: Contious Integrating
 
-on: [push]
+on: 
+  push:
+    branches:
+      - main
 
 jobs:
   build:
